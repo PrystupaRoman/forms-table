@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<title>Соціологічне опитування</title>
+		</head>
+		<body>
+		  <h1>Який вид спорту вам найбільше подобається?</h1><br>
+		<form action="https://formspree.io/dillon@ukr.net" method="POST">
+		 <fieldset>
+          <legend>Соціологічне опитування</legend><br><br>
+           	<label>Виберіть стать</label><br><br>
+           	   <input type="radio" name="gender" value="male" checked> Чоловік
+ 			   <input type="radio" name="gender" value="female" id="gender"> Жінка<br><br>  	
+			   <label for="putname">Ваше ім'я: </label>
+ 			   <input type="text" name="name" placeholder="Will Smith" required id="putname"><br><br>
+			   <label>Чи є у вас довсів у якомусь виді спорту?</label><br><br>
+			   <input type="checkbox" name="question" checked="checked" value="yes"> Так
+ 			   <input type="checkbox" name="question" value="no"> Ні<br><br>
+ 			   <label>Якщо так то скільки років?</label><br><br>
+ 			   <input type="range" name="time" min="0" max="10" value="1" ><br><br>
+ 			   <label>Чи є ваш вид спорту з цього переліку?</label><br><br>
+ 			   <select name="sports">
+ 			   	 <option value="box">Бокс</option>
+ 			   	 <option value="football">Футбол</option>
+ 			   	 <option value="swimming">Плавання</option>
+ 			   	 <option value="basketball">Баскетбол</option>
+ 			   	 <option value="month-claiming">Альпінізм</option>
+ 			   	 <option value="armwrestling">Армспорт</option>
+ 			   	 <option value="powerlifting">пауерліфтинг</option>
+ 			   	 <option value="parachute">Парашутний спорт</option> 
+ 			    </select><br><br>
+ 			    <label>Чи є у вас якісь досягнення?</label><br><br>
+ 			    <textarea  cols="30" rows="10">
+ 			    </textarea><br><br>
+ 			    <label>Відвідайте наш безкоштовний захід на тему корисність заняття спортом, обираючи зручну для вас дату</label><br><br>
+	    		<input type="date" name="date">
+	    		<br><br>
+	    		<label for="email">Підписатись на наші новини</label><br><br>
+	    		<input type="email" name="email" id="email" placeholder="email" required ><br><br>
+	    		<input type="submit" name="submit" value="Підписатись">
+	    		<input type="reset" name="reset" value="Скинути"><br><br>
+	    	 </fieldset>	 
+			   </form>
+		  		</body>
+	   			 </html>
